@@ -1,0 +1,32 @@
+<% add_decidim_meta_tags({
+	description: translated_attribute(@jitsi_meeting.room_name),
+}) %>
+
+<%= render partial: "decidim/shared/component_announcement" %>
+
+<div class="row column">
+	<div class="row">
+		<div class="section">
+			<div id="jitsi-container"></div>
+		</div>
+	</div>
+</div>
+
+<script src="<%= translated_attribute(@jitsi_meeting.api) %>"></script>
+<script>
+	const domain = "<%= translated_attribute(@jitsi_meeting.domain) %>";
+	const options = {
+		roomName: "<%= translated_attribute(@jitsi_meeting.room_name) %>",
+		height: 600,
+		parentNode: document.getElementById('jitsi-container'),
+		configOverwrite: {},
+		interfaceConfigOverwrite: {
+			filmStripOnly: false,
+			SHOW_JITSI_WATERMARK: false,
+		},
+		configOverwrite: {
+			disableSimulcast: false,
+		},
+	}
+	const api = new JitsiMeetExternalAPI(domain, options);
+</script>
