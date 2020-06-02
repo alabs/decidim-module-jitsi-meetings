@@ -1,7 +1,7 @@
 # Decidim::JitsiVideoconference
 ![Ruby](https://github.com/alabs/decidim-module-jitsi-videoconference/workflows/Ruby/badge.svg)
-[![Coverage](https://img.shields.io/codeclimate/coverage/alabs/decidim-module-calendar.svg)](https://codeclimate.com/github/alabs/decidim-module-calendar)
-[![Maintainability](https://img.shields.io/codeclimate/maintainability/alabs/decidim-module-calendar.svg)](https://codeclimate.com/github/alabs/decidim-module-calendar/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/49e514263509f74028c8/test_coverage)](https://codeclimate.com/github/alabs/decidim-module-jitsi-videoconference/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/49e514263509f74028c8/maintainability)](https://codeclimate.com/github/alabs/decidim-module-jitsi-videoconference/maintainability)
 
 This module of [Decidim](https://decidim.org/) allows to deploy public or private videoconference rooms of any [jitsi](https://meet.jit.si/) server in participative processes and assemblies.
 
