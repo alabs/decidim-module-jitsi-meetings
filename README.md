@@ -1,4 +1,4 @@
-# Decidim::JitsiVideoconference
+# Decidim::Jitsi_Meetings
 ![Ruby](https://github.com/alabs/decidim-module-jitsi-videoconference/workflows/Ruby/badge.svg)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/49e514263509f74028c8/test_coverage)](https://codeclimate.com/github/alabs/decidim-module-jitsi-videoconference/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/49e514263509f74028c8/maintainability)](https://codeclimate.com/github/alabs/decidim-module-jitsi-videoconference/maintainability)
@@ -14,7 +14,7 @@ This module of [Decidim](https://decidim.org/) allows to deploy public or privat
 1.- Add this line to your application's Gemfile:
 
 ```ruby
-gem 'decidim-jitsi_meetings', git: 'https://github.com/alabs/decidim-module-jitsi-videoconference.git'
+gem 'decidim-jitsi_meetings', git: 'https://github.com/alabs/decidim-module-jitsi-meetings.git'
 ```
 
 2.- Run this rake tasks:
