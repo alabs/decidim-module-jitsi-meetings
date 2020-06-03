@@ -1,5 +1,5 @@
 # Decidim::Jitsi_Meetings
-![Ruby](https://github.com/alabs/decidim-module-jitsi-videoconference/workflows/Ruby/badge.svg)
+[![Build Status](https://github.com/alabs/decidim-module-jitsi-videoconference/workflows/Ruby/badge.svg)](https://github.com/alabs/decidim-module-jitsi-meetings/actions)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/4ae591dc1f18df189316/test_coverage)](https://codeclimate.com/github/alabs/decidim-module-jitsi-meetings/test_coverage)
 [![Maintainability](https://api.codeclimate.com/v1/badges/4ae591dc1f18df189316/maintainability)](https://codeclimate.com/github/alabs/decidim-module-jitsi-meetings/maintainability)
 
