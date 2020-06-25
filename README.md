@@ -20,7 +20,7 @@ gem 'decidim-jitsi_meetings', git: 'https://github.com/alabs/decidim-module-jits
 2.- Run this rake tasks:
 
 ```bash
-bundle intall
+bundle install
 rake decidim_jitsi_meetings:install:migrations
 bundle exec rake db:migrate
 ```
