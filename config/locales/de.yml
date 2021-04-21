@@ -1,0 +1,20 @@
+---
+de:
+  decidim:
+    components:
+      jitsi_meetings:
+        name: Jitsi Meetings
+        settings:
+          global:
+            announcement: Benachrichtigung
+          step:
+            announcement: Benachrichtigung
+    jitsi_meetings:
+      admin:
+        jitsi_meetings:
+          edit:
+            title: Jitsi Meeting
+            save: 'Speichern'
+        models:
+          components:
+            url: 'URL'

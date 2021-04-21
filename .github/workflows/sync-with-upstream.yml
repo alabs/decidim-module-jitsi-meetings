@@ -1,0 +1,16 @@
+---
+name: sync
+
+"on":
+  schedule:
+    - cron: '0 0 * * *'  # Sync once a day
+
+jobs:
+  sync-branches:
+    name: Sync the version branches with the upstream main branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: imba-tjd/rebase-upstream-action@master
+        with:
+          upstream: alabs/decidim-module-jitsi-meetings
